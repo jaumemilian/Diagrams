@@ -1,1 +1,188 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T13:23:08.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="CuJOr5PFZFFflzQm0B7S" version="16.5.6" type="github"><diagram id="w0rEtI4LYDOJUbEIAWa5" name="Page-1">5Vldb5swFP01kbqHVXzl6zEl2VZpmaplU6W9OXATrBnMjGmS/vqZYCBgSFsS2kiR8oCPzQXfc861HXqm7W+/MhR6c+oC6Rmau+2Z055h6JZh9JKf5u5SZDi2UmDNsCsHFcACP4MENYnG2IWoNJBTSjgOy6BDgwAcXsIQY3RTHraipPzUEK1BARYOIir6iF3upejIGBb4N8BrL3uyPhinPT7KBsuZRB5y6eYAMmc902aU8vTK39pAkuRleUnv+9LQm78Yg4C/5oYBoPiPuVx69tzazn/9eHb+7T5Ldp4QieWEH34u5PvyXZYE8ephchn75DteAcGBaN2FwLAPHJjoIRJ+KLC7jYc5LELkJLduhDwE5nGfiJYuLgVjHIlbWN4mBIURXu6fqgmEgROzCD/BT4hSYSQojXnyJDsnPAHlNIBx2DbmR8+zLuQKVLwn24kh8oaR5GlXbm4K1nVNYt4B4+ZYgkgqbZ1HLsgQF5KPN3AzULmJI08gU+rEfjIrQ/sdOARFEV5hcBXaDpKdZAYLVU8IXgcCW1LOqS86IHAniU0SjFDnb5J2GgcuuKXMgqvYpMjrMWVxxNZwbFy/npSDtGdMMCCICzWUPV6TdRntgeJ9jiS//Xp+swARjZkD8p5DG1XC6ObxOOmElTh7BeTzay+KkSKKTA33JwuAhiC67lwUeXv69bRbFuXRuaWRZvzt0jhRB1UCc1e/VQn9F+J0rARTUcLkXrQXwJ6wI5bMqyzilt6uiltV8s5WxXV1iZ08iiVWs6kfMvCEwURjFnDMcQ1rH1rDzQ+qzUbfbGdJQxvf9o+H6tiVVj3b1+jF/vDivKg3bak4TUqneVn2s97LfiIxFQMaLddES/FfNVLH/usrDM/pEsdXuhwKL12YBYcKP7MtZ8hJNDQHjlzEkbi8yXe100+XZUopsBfPNe+2dirm1QsTnmzfmlgdG3isCGRKNwGhyM0kcRHaaPDd+em1+uqWZtRydzR6MVQDuSJdaHcwLEwGRM0vbQ6rG7pRRStpxLMqJ7NBzdn4VJl0cDJuENCJaqmheDhsWQtU4VVDdVwKdPWIWywRV0LoQK+yYLY9HFkD7XigrulUz0aXTucr/qRqWOdlzrVbY6gPSmnP/rg5u9PNQUthVP8RUwI1CKMIlA2kq1UE3YhH3djbBFAgoGm6ZVwxoYoPPcS9356g6uRRy/1eTXWphuq6KKhfOez0i0aSuoMvHTdZrbiCPV/VkFbb47haJJRQrfkVzeLjZTq8+ARszv4D</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-14T11:09:25.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Qyki7cg9JdZqChy_nTfv" version="16.5.6" type="github">
+  <diagram id="w0rEtI4LYDOJUbEIAWa5" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-2" value="PRS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-6" value="Push Document Unclassified" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6eauZ3bbhCM4xMTNzcqy-2" target="6eauZ3bbhCM4xMTNzcqy-5" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="130" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-8" value="DocumentId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="6eauZ3bbhCM4xMTNzcqy-2" source="6eauZ3bbhCM4xMTNzcqy-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="100" as="sourcePoint" />
+            <mxPoint x="50" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-3" value="AI Services" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-12" value="AWS Comprehend Entities" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6eauZ3bbhCM4xMTNzcqy-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="253" as="sourcePoint" />
+            <mxPoint x="209.5" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-4" value="AWS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-11" value="Push to S3" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6eauZ3bbhCM4xMTNzcqy-4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-110" y="220" as="sourcePoint" />
+            <mxPoint x="49.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-5" value="Mobius" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-7" value="Extract Metadata (DocumentID)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="6eauZ3bbhCM4xMTNzcqy-5" target="6eauZ3bbhCM4xMTNzcqy-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-110" y="149.5" as="sourcePoint" />
+            <mxPoint x="49.5" y="149.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-9" value="DownloadDocument(DocumentID)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="459.5" y="258" as="sourcePoint" />
+            <mxPoint x="289.5" y="258" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-10" value="Document" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289.5" y="277" as="sourcePoint" />
+            <mxPoint x="459.5" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-13" value="Metadata" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619.5" y="353" as="sourcePoint" />
+            <mxPoint x="460" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-14" value="Metadata" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" source="6eauZ3bbhCM4xMTNzcqy-3" edge="1">
+          <mxGeometry x="0.2716" y="-3" relative="1" as="geometry">
+            <mxPoint x="289.5" y="363" as="sourcePoint" />
+            <mxPoint x="130" y="363" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-15" value="Clean Data from S3" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="385" as="sourcePoint" />
+            <mxPoint x="619.5" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eauZ3bbhCM4xMTNzcqy-16" value="Classify Document (Metadata)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="420" as="sourcePoint" />
+            <mxPoint x="289.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-1" value="PRS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-2" value="Push Documents Unclassified" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="-WtYWrIkiUEFFAnqkKxy-1" target="-WtYWrIkiUEFFAnqkKxy-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="130" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-3" value="DocumentId List" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="-WtYWrIkiUEFFAnqkKxy-1" source="-WtYWrIkiUEFFAnqkKxy-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="100" as="sourcePoint" />
+            <mxPoint x="50" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-4" value="AI Services" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="540" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-5" value="AWS Comprehend Entities" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="-WtYWrIkiUEFFAnqkKxy-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="253" as="sourcePoint" />
+            <mxPoint x="209.5" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-6" value="AWS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="540" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-7" value="Push to S3" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="-WtYWrIkiUEFFAnqkKxy-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-281.5" y="198" as="sourcePoint" />
+            <mxPoint x="49.5" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-8" value="Mobius" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="239" y="540" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-9" value="Extract Metadata (DocumentID List)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="-WtYWrIkiUEFFAnqkKxy-8" target="-WtYWrIkiUEFFAnqkKxy-4">
+          <mxGeometry x="0.1533" width="80" relative="1" as="geometry">
+            <mxPoint x="-110" y="149.5" as="sourcePoint" />
+            <mxPoint x="49.5" y="149.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-10" value="GetS3FolderUriForDocumentIDList" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="464.5" y="711" as="sourcePoint" />
+            <mxPoint x="289.5" y="711" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="711" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-11" value="S3FolderUri" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289.5" y="769" as="sourcePoint" />
+            <mxPoint x="464.5" y="769" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-12" value="Metadata" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619.5" y="813" as="sourcePoint" />
+            <mxPoint x="460" y="813" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-13" value="Metadata" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="-WtYWrIkiUEFFAnqkKxy-4">
+          <mxGeometry x="0.2716" y="-3" relative="1" as="geometry">
+            <mxPoint x="289.5" y="823" as="sourcePoint" />
+            <mxPoint x="130" y="823" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-14" value="Clean Data from S3" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="-WtYWrIkiUEFFAnqkKxy-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="470" y="845" as="sourcePoint" />
+            <mxPoint x="619.5" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-15" value="Classify Document (Metadata)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="880" as="sourcePoint" />
+            <mxPoint x="289.5" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-18" value="Async EndPoint&lt;br style=&quot;font-size: 10px;&quot;&gt;Need to PULL to check the Status" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="140" y="710" width="131" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-WtYWrIkiUEFFAnqkKxy-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;entryX=0;entryY=0;entryDx=121;entryDy=10;entryPerimeter=0;" edge="1" parent="1" target="-WtYWrIkiUEFFAnqkKxy-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="710" as="sourcePoint" />
+            <mxPoint x="410" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="700" />
+              <mxPoint x="261" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
